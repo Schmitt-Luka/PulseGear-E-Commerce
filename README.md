@@ -10,9 +10,7 @@ Plataforma interactiva de comercio electrónico enfocada en la compra de videoju
 
 ## 🚀 Demo en Vivo
 
-👉 [Ver aplicación desplegada](https://tu-demo.vercel.app) _(Reemplaza con tu link de Vercel/Netlify)_
-
----
+## 👉 [Ver aplicación desplegada](pulse-gear-e-commerce.vercel.app)
 
 ## ✨ Funcionalidades Demostrativas
 
@@ -41,10 +39,6 @@ Plataforma interactiva de comercio electrónico enfocada en la compra de videoju
 Para ejecutar y probar este proyecto localmente en tu equipo:
 
 1. **Clona el repositorio:**
-   ```bash
-   git clone [https://github.com/tu-usuario/ecommerce-next.git](https://github.com/tu-usuario/ecommerce-next.git)
-   cd ecommerce-next
-   ```
 2. **Instala las dependencias:**
    npm install
 3. **inicia el servidor de desarrollo:**
