@@ -10,7 +10,7 @@ Plataforma interactiva de comercio electrónico enfocada en la compra de videoju
 
 ## 🚀 Demo en Vivo
 
-👉 [Ver aplicación desplegada](https://tu-demo.vercel.app) _(Reemplaza con tu link de Vercel/Netlify)_
+👉 [Ver aplicación desplegada](https://tu-demo.vercel.app)
 
 ---
 
