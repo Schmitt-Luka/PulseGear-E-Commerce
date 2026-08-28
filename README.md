@@ -10,7 +10,7 @@ Plataforma interactiva de comercio electrónico enfocada en la compra de videoju
 
 ## 🚀 Demo en Vivo
 
-## 👉 [Ver aplicación desplegada](pulse-gear-e-commerce.vercel.app)
+## 👉 [(pulse-gear-e-commerce.vercel.app)]
 
 ## ✨ Funcionalidades Demostrativas
 
