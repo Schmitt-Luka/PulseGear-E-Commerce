@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pg-bg: #050505;
+  --color-pg-card: #0d0d0d;
+
+  --color-pg-accent: var(--pg-accent);
+}
+
+:root {
+  --pg-accent: #2563eb;
+}
+
+[data-theme="copper-steam"] {
+  --pg-accent: #ff4b1f;
+}
+
+[data-theme="emerald-alchemist"] {
+  --pg-accent: #00ff88;
+}
+
+[data-theme="victorian-velvet"] {
+  --pg-accent: #bf953f;
+}
+
+@layer base {
+  body {
+    @apply bg-pg-bg text-white antialiased;
+    margin: 0;
+    font-family:
+      "Inter",
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050505;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #222;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--pg-accent);
+  }
+}
+
+@layer utilities {
+  .min-h-175 {
+    min-height: 43.75rem;
+  }
+
+  .shadow-accent {
+    box-shadow: 0 0 20px -5px var(--pg-accent);
+  }
+
+  .bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+}
